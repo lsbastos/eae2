@@ -1,4 +1,4 @@
-# eae2 - Estatística Aplicada à Epidmeiologia 2
+# eae2 - Estatística Aplicada à Epidemiologia 2
 
 Repositorio com conteúdo da disciplina Estatística Aplicada à Epidemiologia 2.
 
