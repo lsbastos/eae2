@@ -17,7 +17,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 3/9      | [Modelos lineares 2](slides/3_lm.pdf)                                        | Woodward 9.5-9.8               |
 | 10/9     | Jornada acadêmica                                                            | \-                             |
 | 17/9     | [Modelos lineares 3](slides/4_lm.pdf); ([Pratica lm](pratica/2_lm/)); [Introdução ao modelo logístico ](slides/4_Logistic.pdf) | Jewell Cap. 12                 |
-| 25/9     | Modelo logístico I                                                           | Jewell Cap 13; Woodward Cap 10 |
+| 24/9     | [Modelo logístico I](slides/5_Logistic.pdf) | Jewell Cap 13; Woodward Cap 10 |
 | 1/10     | Modelo logístico II                                                          | Jewell Cap 13; Woodward Cap 10 |
 | 8/10     | Avaliação I                                                                  | \-                             |
 | 15/10    | Confundimento e Interação I                                                  | Woodward Cap 4 e 10            |
@@ -35,6 +35,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 |-----------|----------------------------|
 | 3/9/2024  | [Pratica 1](pratica/1_lm/) |
 | 17/9/2024 | [Pratica 2](pratica/2_lm/) |
+| 24/9/2024 | [Pratica 3](pratica/5_lm/) |
 |           |                            |
 
 ## Bibliografia básica
