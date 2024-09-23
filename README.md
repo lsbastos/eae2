@@ -35,7 +35,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 |-----------|----------------------------|
 | 3/9/2024  | [Pratica 1](pratica/1_lm/) |
 | 17/9/2024 | [Pratica 2](pratica/2_lm/) |
-| 24/9/2024 | [Pratica 3](pratica/5_lm/) |
+| 24/9/2024 | [Pratica 3](pratica/5_logistic/) |
 |           |                            |
 
 ## Bibliografia básica
