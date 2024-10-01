@@ -14,11 +14,11 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 13/8     | Greve                                                                        | \-                             |
 | 20/8     | Greve                                                                        | \-                             |
 | 27/8     | [Modelos lineares 1](slides/2_lm.pdf)                                        | Woodward 9.2-9.4               |
-| 3/9      | [Modelos lineares 2](slides/3_lm.pdf)                                        | Woodward 9.5-9.8               |
+| 3/9      | [Modelos lineares 2](slides/3_lm.pdf); [R](pratica/3_lm/)                                      | Woodward 9.5-9.8               |
 | 10/9     | Jornada acadêmica                                                            | \-                             |
-| 17/9     | [Modelos lineares 3](slides/4_lm.pdf); ([Pratica lm](pratica/2_lm/)); [Introdução ao modelo logístico ](slides/4_Logistic.pdf) | Jewell Cap. 12                 |
-| 24/9     | [Modelo logístico I](slides/5_Logistic.pdf) | Jewell Cap 13; Woodward Cap 10 |
-| 1/10     | Modelo logístico II                                                          | Jewell Cap 13; Woodward Cap 10 |
+| 17/9     | [Modelos lineares 3](slides/4_lm.pdf); ([Pratica lm](pratica/2_lm/)); [Introdução ao modelo logístico ](slides/4_Logistic.pdf); [R](pratica/4_lm/) | Jewell Cap. 12               |
+| 24/9     | [Modelo logístico I](slides/5_Logistic.pdf);  [R](pratica/5_logistic/)| Jewell Cap 13; Woodward Cap 10 |
+| 1/10     | [Modelo logístico II](slides/6_Logistic.pdf);  [R](pratica/6_logistic/)                                                         | Jewell Cap 13; Woodward Cap 10 |
 | 8/10     | Avaliação I                                                                  | \-                             |
 | 15/10    | Confundimento e Interação I                                                  | Woodward Cap 4 e 10            |
 | 22/10    | Confundimento e Interação II                                                 |                                |
@@ -50,4 +50,5 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 
 ### Artigos
 
--   Greenland (1989) Modeling and variable selection in epidemiologic analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/2916724/)
+- Sander Greenland (1989) Modeling and variable selection in epidemiologic analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/2916724/)
+- Sandro Sperandei (2014) Understanding logistic regression analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/24627710/)
