@@ -20,9 +20,9 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 24/9     | [Modelo logístico I](slides/5_Logistic.pdf);  [R](pratica/5_logistic/)| Jewell Cap 13; Woodward Cap 10 |
 | 1/10     | [Modelo logístico II](slides/6_Logistic.pdf);  [R](pratica/6_logistic/)                                                         | Jewell Cap 13; Woodward Cap 10 |
 | 8/10     | [Avaliação I](avaliacao/) (pdf e RData)     | \-                             |
-| 15/10    | Confundimento e Interação I                                                  | Woodward Cap 4 e 10            |
-| 22/10    | Confundimento e Interação II                                                 |                                |
-| 29/10    | ? (em construção)                                                            |                                |
+| 15/10    | [Confundimento e Interação I](slides/7_confund.pdf) [R](pratica/7_confund/) | Woodward Cap 14    |
+| 22/10    | Confundimento e Interação II |                                |
+| 29/10    | Medidas de associação ajustadas | Woodward Cap 5 e artigos    |
 | 5/11     | ? (em construção)                                                            |                                |
 | 12/11    | ? (em construção)                                                            |                                |
 | 19/11    | Ponto facultativo no Rio - G20                                               | \*                             |
@@ -52,3 +52,5 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 
 - Sander Greenland (1989) Modeling and variable selection in epidemiologic analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/2916724/)
 - Sandro Sperandei (2014) Understanding logistic regression analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/24627710/)
+- Barros e Hirakata (2003) Alternatives for logistic regression in cross-sectional studies: an empirical comparison of models that directly estimate the prevalence ratio [PUBMED](https://pubmed.ncbi.nlm.nih.gov/14567763/)
+- Bastos, de Oliveira e Velasque (2014) Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/25859716/)
