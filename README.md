@@ -21,8 +21,8 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 1/10     | [Modelo logístico II](slides/6_Logistic.pdf);  [R](pratica/6_logistic/)                                                         | Jewell Cap 13; Woodward Cap 10 |
 | 8/10     | [Avaliação I](avaliacao/) (pdf e RData)     | \-                             |
 | 15/10    | [Confundimento e Interação I](slides/7_confund.pdf) [R](pratica/7_confund/) | Woodward Cap 14    |
-| 22/10    | Confundimento e Interação II |                                |
-| 29/10    | Medidas de associação ajustadas | Woodward Cap 5 e artigos    |
+| 22/10    | [Inferência em amostras complexas](slides/8_amostragem.pdf) e [mau uso do valor-p](slides/8_Bastos palestra IOC p-value.pdf) | [Survey](http://r-survey.r-forge.r-project.org/survey/) e [ASA statment on p-values](https://www.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#d1e385); [R](pratica/8_amostragem/amostragem.R)  |
+| 29/10    | Confundimento e Interação II |                                |
 | 5/11     | ? (em construção)                                                            |                                |
 | 12/11    | ? (em construção)                                                            |                                |
 | 19/11    | Ponto facultativo no Rio - G20                                               | \*                             |
