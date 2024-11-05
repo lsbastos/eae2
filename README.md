@@ -22,12 +22,13 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 8/10     | [Avaliação I](avaliacao/) (pdf e RData)     | \-                             |
 | 15/10    | [Confundimento e Interação I](slides/7_confund.pdf) [R](pratica/7_confund/) | Woodward Cap 14    |
 | 22/10    | [Inferência em amostras complexas](slides/8_amostragem.pdf) e [mau uso do valor-p](slides/8_Bastos_palestra_IOC_p-value.pdf) | [Survey](http://r-survey.r-forge.r-project.org/survey/) e [ASA statment on p-values](https://www.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#d1e385); [R](pratica/8_amostragem/amostragem.R)  |
-| 29/10    | Confundimento e Interação II |                                |
-| 5/11     | ? (em construção)                                                            |                                |
-| 12/11    | ? (em construção)                                                            |                                |
+| 29/10    |  Aula cancelada  |                                |
+| 5/11     | Aula prática     |                                |
+| 12/11    | Confundimento e Interação II                                                            |                                |
 | 19/11    | Ponto facultativo no Rio - G20                                               | \*                             |
-| 26/11    | Congresso de epidemiologia                                                   | \*                             |
-| 3/12     | Avaliação II                                                                 |                                |
+| 26/11    | Não tem aula (Congresso de epidemiologia); Data limite do envio do tótulo e resumo da avaliação II | \*                             |
+| 3/12     | Avaliação II: Apresentações de 10 minutos por grupo. Envio da avaliação do projeto do colega. |                                |
+| 4/12     | Avaliação II: Data limite para o envio do resumo atualizado. |                                |
 
 ## Práticas e exercícios
 
@@ -36,7 +37,27 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 3/9/2024  | [Pratica 1](pratica/1_lm/) |
 | 17/9/2024 | [Pratica 2](pratica/2_lm/) |
 | 24/9/2024 | [Pratica 3](pratica/5_logistic/) |
-|           |                            |
+| 1/10/2024 | [Pratica 4](pratica/6_logistic/) |
+| 15/10/2024 | [Pratica 5](pratica/7_confund/) |
+| 5/11/2024 | [Pratica 6](pratica/8_amostragem) |
+
+## Trabalho final
+
+O trabalho final da disciplina consiste na análise de uma base de dados real e aberta, a escolha do grupo, com desfecho binário, uma exposição de interesse e pelo menos duas outras variáveis para avaliar a presença de confundimento e interação. O trabalho consiste em 3 etapas:
+
+1) Até dia *26/10* cada grupo deverá enviar um resumo estruturado, podendo ser tanto em inglês ou quanto em português, de até 250 palavras com introdução (ou backround ou objetivos), métodos, resultados e conclusão. Revistas de exemplo [Epidemiology](https://journals.lww.com/epidem/) ou [International Journal of Epidemiology](https://academic.oup.com/ije/issue/53/5). Segue um link com [uma nota do editor](https://journals.lww.com/epidem/blog/watching/pages/post.aspx?PostID=20) da Epidemiology e um link para [o guideline da IJE](https://academic.oup.com/ije/pages/General_Instructions#Original%20Articles) sobre abstracts.
+2) No dia *3/12* teremos apresentações de 10 minutos de cada trabalho.
+3) Após apresentação, os resumos poderão ser atualizados e reenviados até dia *4/12*.
+
+Cada aluno será alocado um resumo para avaliação, podendo ou não fazer comentários breves na apresentação do colegas. Uma breve avaliação escrita do trabalho do colega com no máximo 300 caracteres e uma nota de 0 a 10 para o trabalho a serem enviadas por email ainda no dia 3/12.
+
+Proposta de título do trabalho: Associação entre "desfecho Y" e "exposição X" na "populaçao X". Ex. Associação entre baixo peso ao nascer e raça/cor da mãe no Rio de Janeiro, Brasil.
+
+A avaliação será feita com base nos resumos enviados, na apresentação, na avaliação do trabalho feita pelo colega (o comentário do colega será considerado assim como a avaliação em si será avaliada).
+
+Tanto o resumo quanto a avaliação do colega devem ser enviados em texto simples no corpo do email. 
+
+Uso de ferramentas de inteligência artificial deve ser explicitada, se usou qual feramenta, onde usou e porque usou. (Não é problema fazer uso de IA, mas eu gostaria que fosse explícito onde ela foi utilizada).
 
 ## Bibliografia básica
 
