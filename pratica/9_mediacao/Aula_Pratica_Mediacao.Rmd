@@ -1,0 +1,71 @@
+---
+title: "Aula prática -- Mediação"
+author: "Leo Bastos (PROCC)"
+date: "November 12, 2024"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Parte 1
+
+A primeira parte da aula prática consiste em reproduzir a análise para os dados simulados da aula de 12/11. Onde avaliamos a associação entre hipertensão ($X$) e AVC ($Y$) mediada por aterosclerose ($M$).
+
+O script com os comandos está no arquivo 'exemploSimulado.R'.
+
+Notem que nesse script, a título de ilustracao de como criar funções no R, implementamos uma função que calcula o inverso da função logit. 
+$$invlogit(x) = \frac{e^x}{1 + e^x}, \quad x \in \mathbb{R}.$$
+
+## Parte 2
+
+Usando o procedimento descrito na aula prática do dia 6 de setembro, vamos construir um modelo para explicar a associação entre escolaridade e tipo parto, controlado por raça e mediado pelo tipo de hospital onde o parto aconteceu, SUS versus não SUS.
+
+Após a leitura do banco .dbc, vamos criar as variaveis de interesse:
+
+```{r eval=FALSE}
+DNRJ2016.full <- read.dbc::read.dbc("caminho/DNRJ2016.dbc", as.is = T)
+
+DNRJ2016 <- DNRJ2016.full %>%  
+  filter( 
+    CODMUNNASC == "330455",  
+    PARTO != "9", 
+    ESCMAE != "9") %>%  
+  dplyr::select(
+    PARTO, ESCMAE, 
+    RACACORMAE, CODESTAB) %>% 
+  mutate(
+      PARTO = ifelse(PARTO == "2", 
+                     "Cesario", "Vaginal")
+      )
+```
+
+Construindo uma base separada com os CNES do municipio do Rio, e a partir dessa base classificar os estabelecimentos como SUS sim ou nao.
+```{r eval=FALSE}
+CNESRio <- read_csv("caminho/cnesRio.csv", col_types = "ciic")
+
+CNESRio <- CNESRio %>% mutate(
+  SUS = ifelse(AtendeSUS == 1 & Natureza == "ADMINISTRAÇÃO PÚBLICA", "SIM", "NAO")
+)
+```
+
+Esse é o passo onde a tabela do CNES é incorporado ao nosso banco do SINASC. 
+```{r eval=FALSE}
+DNRJ2016 <- DNRJ2016 %>% 
+  left_join(y = CNESRio, by = c("CODESTAB" = "CODESTAB") ) %>% 
+  na.exclude()
+```
+
+## 2a)
+
+Com o banco montado, construa um modelo com a escolaridade da mãe (em anos de estudo) explicando o tipo de parto, controlado pela raça da mãe.
+
+
+## 2b)
+
+Inclua agora a classificação do estabelecimento, SUS sim ou não, como variável mediadora e calcule o efeito natural direto e o efeito natural indireto da escolaridade da mãe na probabilidade do parto ser uma cesária.
+

@@ -24,7 +24,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 22/10    | [Inferência em amostras complexas](slides/8_amostragem.pdf) e [mau uso do valor-p](slides/8_Bastos_palestra_IOC_p-value.pdf) | [Survey](http://r-survey.r-forge.r-project.org/survey/) e [ASA statment on p-values](https://www.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#d1e385); [R](pratica/8_amostragem/amostragem.R)  |
 | 29/10    |  Aula cancelada  |                                |
 | 5/11     | Aula prática     |                                |
-| 12/11    | Confundimento e Interação II                                                            |                                |
+| 12/11    | [Análise de mediação](slides/9_mediacao.pdf)      |  [VanderWeele's paper](https://pubmed.ncbi.nlm.nih.gov/26653405/) |
 | 19/11    | Ponto facultativo no Rio - G20                                               | \*                             |
 | 26/11    | Não tem aula (Congresso de epidemiologia); Data limite do envio do tótulo e resumo da avaliação II | \*                             |
 | 3/12     | Avaliação II: Apresentações de 10 minutos por grupo. Envio da avaliação do projeto do colega. |                                |
@@ -39,19 +39,20 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 24/9/2024 | [Pratica 3](pratica/5_logistic/) |
 | 1/10/2024 | [Pratica 4](pratica/6_logistic/) |
 | 15/10/2024 | [Pratica 5](pratica/7_confund/) |
-| 5/11/2024 | [Pratica 6](pratica/8_amostragem) |
+| 5/11/2024 | [Pratica 6](pratica/8_amostragem/) |
+| 12/11/2024 | [Pratica 7](pratica/9_mediacao/) |
 
 ## Trabalho final
 
 O trabalho final da disciplina consiste na análise de uma base de dados real e aberta, a escolha do grupo, com desfecho binário, uma exposição de interesse e pelo menos duas outras variáveis para avaliar a presença de confundimento e interação. O trabalho consiste em 3 etapas:
 
-1) Até dia *26/10* cada grupo deverá enviar um resumo estruturado, podendo ser tanto em inglês ou quanto em português, de até 250 palavras com introdução (ou backround ou objetivos), métodos, resultados e conclusão. Revistas de exemplo [Epidemiology](https://journals.lww.com/epidem/) ou [International Journal of Epidemiology](https://academic.oup.com/ije/issue/53/5). Segue um link com [uma nota do editor](https://journals.lww.com/epidem/blog/watching/pages/post.aspx?PostID=20) da Epidemiology e um link para [o guideline da IJE](https://academic.oup.com/ije/pages/General_Instructions#Original%20Articles) sobre abstracts.
+1) Até dia *26/11* cada grupo deverá enviar um resumo estruturado, podendo ser tanto em inglês ou quanto em português, de até 250 palavras com introdução (ou backround ou objetivos), métodos, resultados e conclusão. Revistas de exemplo [Epidemiology](https://journals.lww.com/epidem/) ou [International Journal of Epidemiology](https://academic.oup.com/ije/issue/53/5). Segue um link com [uma nota do editor](https://journals.lww.com/epidem/blog/watching/pages/post.aspx?PostID=20) da Epidemiology e um link para [o guideline da IJE](https://academic.oup.com/ije/pages/General_Instructions#Original%20Articles) sobre abstracts.
 2) No dia *3/12* teremos apresentações de 10 minutos de cada trabalho.
 3) Após apresentação, os resumos poderão ser atualizados e reenviados até dia *4/12*.
 
 Cada aluno será alocado um resumo para avaliação, podendo ou não fazer comentários breves na apresentação do colegas. Uma breve avaliação escrita do trabalho do colega com no máximo 300 caracteres e uma nota de 0 a 10 para o trabalho a serem enviadas por email ainda no dia 3/12.
 
-Proposta de título do trabalho: Associação entre "desfecho Y" e "exposição X" na "populaçao X". Ex. Associação entre baixo peso ao nascer e raça/cor da mãe no Rio de Janeiro, Brasil.
+Proposta de título do trabalho: Associação entre "desfecho Y" e "exposição X" na "populaçao Z". Ex. Associação entre baixo peso ao nascer e raça/cor da mãe no Rio de Janeiro, Brasil.
 
 A avaliação será feita com base nos resumos enviados, na apresentação, na avaliação do trabalho feita pelo colega (o comentário do colega será considerado assim como a avaliação em si será avaliada).
 
@@ -69,9 +70,19 @@ Uso de ferramentas de inteligência artificial deve ser explicitada, se usou qua
 
 -   OpenStats: OpenIntro Statistics [link](https://www.openintro.org/book/os/)
 
+-   VanderWeele: Explanation in causal inference: methods for mediation and interaction. Oxford University press. [link](https://global.oup.com/academic/product/explanation-in-causal-inference-9780199325870?cc=us&lang=en&)
+
+
 ### Artigos
 
-- Sander Greenland (1989) Modeling and variable selection in epidemiologic analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/2916724/)
-- Sandro Sperandei (2014) Understanding logistic regression analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/24627710/)
-- Barros e Hirakata (2003) Alternatives for logistic regression in cross-sectional studies: an empirical comparison of models that directly estimate the prevalence ratio [PUBMED](https://pubmed.ncbi.nlm.nih.gov/14567763/)
-- Bastos, de Oliveira e Velasque (2014) Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/25859716/)
+- Barros and Hirakata (2003) Alternatives for logistic regression in cross-sectional studies: an empirical comparison of models that directly estimate the prevalence ratio [PUBMED](https://pubmed.ncbi.nlm.nih.gov/14567763/)
+- Bastos, de Oliveira and Velasque (2014) Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/25859716/)
+- Greenland (1989) Modeling and variable selection in epidemiologic analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/2916724/)
+- Lange, T., et al. (2017) Applied mediation analyses: a review and tutorial. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/29121709/)
+- Richiardi et al. (2013) Mediation analysis in epidemiology: methods, interpretation and bias. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/24019424/)
+- Sperandei (2014) Understanding logistic regression analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/24627710/)
+- Steen, J., et al. (2017) Medflex: An R Package for Flexible Mediation Analysis using Natural Effect Models. \textit{Journal of Statistical Software} [Link](https://www.jstatsoft.org/article/view/v076i11).
+- VanderWeele (2015) Mediation Analysis: A Practitioner’s Guide. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/26653405/) 
+
+
+
