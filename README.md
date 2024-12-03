@@ -27,7 +27,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 12/11    | [Análise de mediação](slides/9_mediacao.pdf)      |  [VanderWeele's paper](https://pubmed.ncbi.nlm.nih.gov/26653405/) |
 | 19/11    | Ponto facultativo no Rio - G20                                               | \*                             |
 | 26/11    | Não tem aula (Congresso de epidemiologia); Data limite do envio do tótulo e resumo da avaliação II | \*                             |
-| 3/12     | Avaliação II: Apresentações de ~~10~~15 minutos por grupo. ~~Envio da avaliação do projeto do colega~~ | <a href="avaliacao/resumos.html" target="_blank">Resumos</a>  |
+| 3/12     | Avaliação II: Apresentações de ~~10~~15 minutos por grupo. ~~Envio da avaliação do projeto do colega~~ | [Resumos](avaliacao/)   |
 | 4/12     | Avaliação II: Data limite para o envio ~~do resumo atualizado~~ da avaliação do trabalho do(s) colega(s). |  [Alocação](avaliacao/alocacao.csv)                              |
 
 ## Práticas e exercícios
