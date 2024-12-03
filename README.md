@@ -27,8 +27,8 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 12/11    | [Análise de mediação](slides/9_mediacao.pdf)      |  [VanderWeele's paper](https://pubmed.ncbi.nlm.nih.gov/26653405/) |
 | 19/11    | Ponto facultativo no Rio - G20                                               | \*                             |
 | 26/11    | Não tem aula (Congresso de epidemiologia); Data limite do envio do tótulo e resumo da avaliação II | \*                             |
-| 3/12     | Avaliação II: Apresentações de 10 minutos por grupo. Envio da avaliação do projeto do colega. |                                |
-| 4/12     | Avaliação II: Data limite para o envio do resumo atualizado. |                                |
+| 3/12     | Avaliação II: Apresentações de ~~10~~15 minutos por grupo. ~~Envio da avaliação do projeto do colega~~ | <a href="avaliacao/resumos.html" target="_blank">Resumos</a>  |
+| 4/12     | Avaliação II: Data limite para o envio ~~do resumo atualizado~~ da avaliação do trabalho do(s) colega(s). |  [Alocação](avaliacao/alocacao.csv)                              |
 
 ## Práticas e exercícios
 
@@ -47,10 +47,10 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 O trabalho final da disciplina consiste na análise de uma base de dados real e aberta, a escolha do grupo, com desfecho binário, uma exposição de interesse e pelo menos duas outras variáveis para avaliar a presença de confundimento e interação. O trabalho consiste em 3 etapas:
 
 1) Até dia *26/11* cada grupo deverá enviar um resumo estruturado, podendo ser tanto em inglês ou quanto em português, de até 250 palavras com introdução (ou backround ou objetivos), métodos, resultados e conclusão. Revistas de exemplo [Epidemiology](https://journals.lww.com/epidem/) ou [International Journal of Epidemiology](https://academic.oup.com/ije/issue/53/5). Segue um link com [uma nota do editor](https://journals.lww.com/epidem/blog/watching/pages/post.aspx?PostID=20) da Epidemiology e um link para [o guideline da IJE](https://academic.oup.com/ije/pages/General_Instructions#Original%20Articles) sobre abstracts.
-2) No dia *3/12* teremos apresentações de 10 minutos de cada trabalho.
-3) Após apresentação, os resumos poderão ser atualizados e reenviados até dia *4/12*.
+2) No dia *3/12* teremos apresentações de ~~10~~ até 15 minutos de cada trabalho.
+~~3) Após apresentação, os resumos poderão ser atualizados e reenviados até dia *4/12*.~~
 
-Cada aluno será alocado um resumo para avaliação, podendo ou não fazer comentários breves na apresentação do colegas. Uma breve avaliação escrita do trabalho do colega com no máximo 300 caracteres e uma nota de 0 a 10 para o trabalho a serem enviadas por email ainda no dia 3/12.
+Cada aluno será alocado um resumo para avaliação ~~, podendo ou não fazer comentários breves na apresentação do colegas~~. Uma breve avaliação escrita do trabalho do colega com no máximo 300 caracteres e uma nota de 0 a 10 para o trabalho a serem enviadas por email ~~ainda no dia 3/12~~ até 4/12.
 
 Proposta de título do trabalho: Associação entre "desfecho Y" e "exposição X" na "populaçao Z". Ex. Associação entre baixo peso ao nascer e raça/cor da mãe no Rio de Janeiro, Brasil.
 
