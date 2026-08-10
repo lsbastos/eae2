@@ -7,7 +7,7 @@ Neste repositório ficarão depositados aulas e códigos em R utilizados na disc
 ## Corpo docente
 
 - Leo Bastos
-- Wagner Tassirani
+- Wagner Tassinari
 - Giseli Nogueira Damacena
 - Heloisa Santos
 
