@@ -18,14 +18,14 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | Data     | Handouts ( Versão amigável para impressão dos [Slides](slides) )                                                                       | Capítulo sugerido              |
 |:-------------------|:---------------------------------|:--------------------|
 | 11/8/2026 | [Burocracias](handouts/0_burocracias.pdf) e [Introdução](handouts/1_intro.pdf)   | OpenStats, Cap. 5; Fahrmeir apêndices                   |
-| 18/8/2026 | Modelo linear simples | Woodward Cap. 9; Fahrmeir Cap. 3; Gelman Cap 7 |
+| 18/8/2026 | [Modelo linear simples](handouts/2_lm.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3; Gelman Cap 7 |
 | 25/8/2026 | Modelo linear múltiplo | Woodward Cap. 9; Fahrmeir Cap. 3; Gelman Cap 10 |
 
 ## Práticas e exercícios
 
 | Data      | Pdf, dados e código em R   |
 |:-----------|:----------------------------|
-| 18/8/2026  | [Pratica:](praticas/) 2_lm.R; [Dados:](dados/) dieta.rds e dmft.rds) |
+| 18/8/2026  | [Pratica:](praticas/) 2_lm.R; [Dados:](dados/) dieta.rds e dmft.rds |
 
 ## Trabalhos práticos
 
