@@ -25,7 +25,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 
 | Data      | Pdf, dados e código em R   |
 |:-----------|:----------------------------|
-| 18/8/2026  | [Pratica 1](pratica/2_lm.R) [Dados:Dieta](dados/dieta.rds) [Dados:DMFT](dados/dmft.rds) |
+| 18/8/2026  | [Pratica 1](pratica/2_lm.R); [Dados:](dados/) dieta.rds e dmft.rds) |
 
 ## Trabalhos práticos
 
