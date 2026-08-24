@@ -4,9 +4,6 @@ library(tidyverse, quietly = T, warn.conflicts = F)
 # Os dados estao em https://github.com/lsbastos/eae2/dados/
 
 dados <- read_rds("dieta.rds")
-# dados <- read.table("../Dados/K11828 supplements/Datasets/Table 9.1.DAT")
-names(dados) <- c("Dieta", "Colesterol")
-dados$Dieta <- factor(dados$Dieta,levels = 1:3, labels = c("Onívoros", "Vegetarianos", "Veganos"))
 
 dados %>% mutate(Subject = rep(1:6,each=3)) %>% spread(Dieta, Colesterol) %>% select( -Subject) 
 
@@ -134,7 +131,7 @@ p +
 
 
 ## ----echo=FALSE, results=tex-------------------------------------------------------------------------
-dados %>% mutate(Subject = rep(1:6,each=3)) %>% spread(Dieta, Colesterol) %>% select( -Subject) %>% xtable()
+dados %>% mutate(Subject = rep(1:6,each=3)) %>% spread(Dieta, Colesterol) %>% select( -Subject)
 
 
 ## ----echo=FALSE, fig = T-----------------------------------------------------------------------------
