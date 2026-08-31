@@ -17,16 +17,18 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 
 | Data     | Handouts ( Versão amigável para impressão dos [Slides](slides) )                                                                       | Capítulo sugerido              |
 |:-------------------|:---------------------------------|:--------------------|
-| 11/8/2026 | [Burocracias](handouts/0_burocracias.pdf) e [Introdução](handouts/1_intro.pdf)   | OpenStats, Cap. 5; Fahrmeir apêndices                   |
-| 18/8/2026 | [Modelo linear simples](handouts/2_lm.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
-| 25/8/2026 | [Modelo linear múltiplo](handouts/3_lm2.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
+| 11/08/2026 | [Burocracias](handouts/0_burocracias.pdf) e [Introdução](handouts/1_intro.pdf)   | OpenStats, Cap. 5; Fahrmeir apêndices                   |
+| 18/08/2026 | [Modelo linear simples](handouts/2_lm.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
+| 25/08/2026 | [Modelo linear múltiplo](handouts/3_lm2.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
+| 01/09/2026 | [Análise de resíduos](handouts/4_lm3.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
 
 ## Práticas e exercícios
 
 | Data      | Pdf, dados e código em R   |
 |:-----------|:----------------------------|
-| 18/8/2026  | [Pratica:](praticas/) 2_lm.R; [Dados:](dados/) dieta.rds e dmft.rds |
-| 25/8/2026  | [Pratica:](praticas/) 3_lm2.R; [Dados:](dados/) racao.rds, dmft.rds,  shhs.rds|
+| 18/08/2026  | [Pratica:](praticas/) 2_lm.R; [Dados:](dados/) dieta.rds e dmft.rds |
+| 25/08/2026  | [Pratica:](praticas/) 3_lm2.R; [Dados:](dados/) racao.rds, dmft.rds,  shhs.rds|
+| 01/09/2026  | [Pratica:](praticas/) 4_lm3.R; [Dados:] Pressão arterial; Nobel |
 
 ## Trabalhos práticos
 
