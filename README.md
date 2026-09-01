@@ -28,7 +28,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 |:-----------|:----------------------------|
 | 18/08/2026  | [Pratica:](praticas/) 2_lm.R; [Dados:](dados/) dieta.rds e dmft.rds |
 | 25/08/2026  | [Pratica:](praticas/) 3_lm2.R; [Dados:](dados/) racao.rds, dmft.rds,  shhs.rds|
-| 01/09/2026  | [Pratica:](praticas/) 4_lm3.R; [Dados:] Pressão arterial; Nobel |
+| 01/09/2026  | [Pratica:](praticas/) 4_lm3.R e 4_lm_pratica; [Dados:] data(bp::bp_children)  |
 
 ## Trabalhos práticos
 

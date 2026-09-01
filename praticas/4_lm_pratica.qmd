@@ -1,0 +1,68 @@
+---
+title: "Prática: Modelos lineares"
+author: "01/09/2026"
+format: pdf
+editor: visual
+---
+
+O banco de dados `bp_children` do pacote `bp` contém informação de 1283 crianças da cidade de Bristol, Reino Unido que participaram de um estudo com 3 leituras de pressão por visita, uma visita feita quando as crianças tinha 9 anos e outra visita quando tinham 11 anos.
+
+```{r echo=F}
+suppressPackageStartupMessages(library(tidyverse))
+```
+
+1.  Prepare o banco, vamos considerar apenas a primeira leitura da primeira visita.
+
+    ```{r}
+    library(tidyverse)
+    library(bp)
+    library(labelled)
+    data("bp_children", package = "bp")
+
+    bp_baseline <-  bp_children|> 
+      dplyr::filter(reading == "1", visit == "1") 
+    ```
+
+2.  O desfecho de interesse é o IMC (`bmi`). As variáveis explicativas de interesse são: tempo médio por dia em minutos de sedentarismo ( sed.avg.mins.all ) e de atividade física moderada a vigorosa (`mvpa.avg.mins.all`), e sexo. Sugestão: Transforme variáveis categoricas em fatores e padronize variáveis contínuas. E faça uma descritiva das variáveis.
+
+    ```{r}
+    # Instale o pacote se necessário: install.packages("labelled")
+    library(labelled)
+
+    bp_baseline <- bp_baseline |>  
+      mutate(
+        mvpa.z = scale(mvpa.avg.mins.all),
+        sed.z = scale(sed.avg.mins.all),
+        gender.fac = to_factor(gender)
+      )
+    ```
+
+3.  Construa um modelo linear para o IMC, avalie a associação com o sedentarismo e atividade física, e controle (ajuste) por sexo (alguma outra?).
+
+4.  Avalie os resíduos padronizados. `rstandard()` para checar as suposições do modelo ajustado. (Normalidade, homocedasticidade e independência). Faça a inferencia e interprete os coeficientes (Mesmo se as suposições forem violadas no anterior).
+
+```{r echo=FALSE, eval=FALSE}
+bp_baseline |> 
+  ggplot(aes( x = gender.fac, y = bmi, fill = gender.fac)) + 
+  geom_boxplot() +
+  theme_light()
+
+bp_baseline |> 
+  ggplot(aes( x = mvpa.z, y = bmi, color = gender.fac)) + 
+  geom_point() +
+  theme_light()
+
+bp_baseline |> 
+  ggplot(aes( x = sed.z, y = bmi, color = gender.fac)) + 
+  geom_point() +
+  theme_light()
+
+m0 <- lm(bmi ~ mvpa.z + sed.z + gender.fac, data = bp_baseline) 
+summary(m0)
+
+qqnorm(rstandard(m0))
+
+plot(rstandard(m0))
+
+
+```
