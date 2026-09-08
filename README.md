@@ -21,6 +21,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 18/08/2026 | [Modelo linear simples](handouts/2_lm.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
 | 25/08/2026 | [Modelo linear múltiplo](handouts/3_lm2.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
 | 01/09/2026 | [Análise de resíduos](handouts/4_lm3.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
+| 08/09/2026 | [Introdução à inferencia bayesiana](handouts/5_bayes.pdf) | - |
 
 ## Práticas e exercícios
 
@@ -29,6 +30,8 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 18/08/2026  | [Pratica:](praticas/) 2_lm.R; [Dados:](dados/) dieta.rds e dmft.rds |
 | 25/08/2026  | [Pratica:](praticas/) 3_lm2.R; [Dados:](dados/) racao.rds, dmft.rds,  shhs.rds|
 | 01/09/2026  | [Pratica:](praticas/) 4_lm3.R e 4_lm_pratica.pdf; [Dados:] data(bp::bp_children)  |
+| 08/09/2026  | [Pratica:](praticas/) 5_bayes.r ; [Dados:] Life Expectancy Data.csv  |
+
 
 ## Trabalhos práticos
 
