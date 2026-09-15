@@ -22,6 +22,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 25/08/2026 | [Modelo linear múltiplo](handouts/3_lm2.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
 | 01/09/2026 | [Análise de resíduos](handouts/4_lm3.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
 | 08/09/2026 | [Introdução à inferencia bayesiana](handouts/5_bayes.pdf) | - |
+| 15/09/2026 | [Modelo logístico](handouts/6_logistic.pdf) | Woodward cap. 10; Fahrmeier Cap. 5 |
 
 ## Práticas e exercícios
 
@@ -31,6 +32,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 25/08/2026  | [Pratica:](praticas/) 3_lm2.R; [Dados:](dados/) racao.rds, dmft.rds,  shhs.rds|
 | 01/09/2026  | [Pratica:](praticas/) 4_lm3.R e 4_lm_pratica.pdf; [Dados:] data(bp::bp_children)  |
 | 08/09/2026  | [Pratica:](praticas/) 5_bayes.r ; [Dados:] Life Expectancy Data.csv  |
+| 15/09/2026  | [Pratica:](praticas/) 6_logistic.r ; [Dados:]  birthweight.data, Titanic (banco nativo do R) |
 
 
 ## Trabalhos práticos
