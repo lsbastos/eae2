@@ -33,6 +33,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 01/09/2026  | [Pratica:](praticas/) 4_lm3.R e 4_lm_pratica.pdf; [Dados:] data(bp::bp_children)  |
 | 08/09/2026  | [Pratica:](praticas/) 5_bayes.r ; [Dados:] Life Expectancy Data.csv  |
 | 15/09/2026  | [Pratica:](praticas/) 6_logistic.r ; [Dados:]  birthweight.data, Titanic (banco nativo do R) |
+|             | [Pratica:](praticas/) lista_1_lm.pdf e lista_2_lm.pdf ; [Dados:]  glicemia_h.csv, CHESS_database_revise.csv |
 
 
 ## Trabalhos práticos
