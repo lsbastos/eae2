@@ -23,6 +23,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 01/09/2026 | [Análise de resíduos](handouts/4_lm3.pdf) | Woodward Cap. 9; Fahrmeir Cap. 3 |
 | 08/09/2026 | [Introdução à inferencia bayesiana](handouts/5_bayes.pdf) | - |
 | 15/09/2026 | [Modelo logístico](handouts/6_logistic.pdf) | Woodward cap. 10; Fahrmeier Cap. 5 |
+| 22/09/2026 | [Modelo logístico](handouts/7_logistic.pdf) | Woodward cap. 10; Fahrmeier Cap. 5 |
 
 ## Práticas e exercícios
 
@@ -34,6 +35,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 08/09/2026  | [Pratica:](praticas/) 5_bayes.r ; [Dados:](dados/) Life Expectancy Data.csv  |
 | 15/09/2026  | [Pratica:](praticas/) 6_logistic.r ; [Dados:](dados/)  birthweight.data, Titanic (banco nativo do R) |
 |             | [Pratica:](praticas/) lista_1_lm.pdf e lista_2_lm.pdf ; [Dados:](dados/)  glicemia_h.csv, CHESS_database_revise.csv |
+| 22/09/2026  | [Pratica:](praticas/) 7_logistic.r ; [Dados:](dados/) DUsifilis.csv |
 
 
 ## Trabalhos práticos
