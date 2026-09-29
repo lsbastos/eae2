@@ -41,6 +41,8 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 
 ## Trabalhos práticos
 
+| Data       | Instruções  |
+|:-----------|:----------------------------|
 | 29/09/2026 | Avaliação 1 - [Acessar a avaliação](https://hfpsantos.shinyapps.io/prova_shiny/) e [Fazer upload da avaliação](https://forms.gle/fCyZfFxu6g9g1LJ6A)|
 
 ## Bibliografia básica
