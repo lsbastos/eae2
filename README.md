@@ -24,6 +24,7 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 08/09/2026 | [Introdução à inferencia bayesiana](handouts/5_bayes.pdf) | - |
 | 15/09/2026 | [Modelo logístico](handouts/6_logistic.pdf) | Woodward cap. 10; Fahrmeier Cap. 5 |
 | 22/09/2026 | [Modelo logístico](handouts/7_logistic.pdf) | Woodward cap. 10; Fahrmeier Cap. 5 |
+| 29/09/2026 | [Avaliação 1 |
 
 ## Práticas e exercícios
 
