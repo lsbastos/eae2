@@ -38,7 +38,15 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 15/09/2026  | [Pratica:](praticas/) 6_logistic.r ; [Dados:](dados/)  birthweight.data, Titanic (banco nativo do R) |
 |             | [Pratica:](praticas/) lista_1_lm.pdf e lista_2_lm.pdf ; [Dados:](dados/)  glicemia_h.csv, CHESS_database_revise.csv |
 | 22/09/2026  | [Pratica:](praticas/) 7_logistic.r ; [Dados:](dados/) DUsifilis.csv |
+| 29/09/2026  | AV1 |
 | 06/10/2026  | [Pratica:](praticas/) 8_aulaPesos.r ; [Dados:](dados/) Vigitel-2023-peso-rake.xlxs |
+| 13/10/2026  | Aula prática |
+| 20/10/2026  | Aula prática |
+| 27/10/2026  | Revisão modelo linear |
+| 03/11/2026  | Revisão de modelo log[istico  |
+| 10/11/2026  | Arguições individuais - AV2 |
+| 17/11/2026  | Arguições individuais - AV2 |
+| 24/11/2026  | Arguições individuais - AV2 |
 
 
 ## Trabalhos práticos
