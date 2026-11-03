@@ -26,6 +26,13 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 22/09/2026 | [Modelo logístico](handouts/7_logistic.pdf) | Woodward cap. 10; Fahrmeier Cap. 5 |
 | 29/09/2026 | Avaliação 1 | -  |
 | 06/10/2026 | [Amostras complexas](handouts/8_aulaPesos.pdf) | Referências nos slides  |
+| 13/10/2026  | Aula prática | |
+| 20/10/2026  | Aula prática | |
+| 27/10/2026  | Revisão de modelo logístico | |
+| 03/11/2026  | [Medidas de associação ajustadas](handouts/9_epimio.pdf) | Artigos: Barros e Hirakata (2003), Bastos et al (2015), Amorim e Ospina (2021)   |
+| 10/11/2026  | Arguições individuais - AV2 | |
+| 17/11/2026  | Arguições individuais - AV2 | |
+| 24/11/2026  | Arguições individuais - AV2 | |
 
 ## Práticas e exercícios
 
@@ -40,13 +47,6 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 | 22/09/2026  | [Pratica:](praticas/) 7_logistic.r ; [Dados:](dados/) DUsifilis.csv |
 | 29/09/2026  | AV1 |
 | 06/10/2026  | [Pratica:](praticas/) 8_aulaPesos.r ; [Dados:](dados/) Vigitel-2023-peso-rake.xlxs |
-| 13/10/2026  | Aula prática |
-| 20/10/2026  | Aula prática |
-| 27/10/2026  | Revisão modelo linear |
-| 03/11/2026  | Revisão de modelo log[istico  |
-| 10/11/2026  | Arguições individuais - AV2 |
-| 17/11/2026  | Arguições individuais - AV2 |
-| 24/11/2026  | Arguições individuais - AV2 |
 
 
 ## Trabalhos práticos
