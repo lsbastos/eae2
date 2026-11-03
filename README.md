@@ -74,12 +74,14 @@ Não recomendo que estudem pelos slides, por isso indico pelo menos um capítulo
 ### Artigos
 
 - Barros and Hirakata (2003) Alternatives for logistic regression in cross-sectional studies: an empirical comparison of models that directly estimate the prevalence ratio [PUBMED](https://pubmed.ncbi.nlm.nih.gov/14567763/)
-- Bastos, de Oliveira and Velasque (2014) Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/25859716/)
+- Bastos, de Oliveira and Velasque (2015) Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/25859716/)
+- Amorim and Ospina (2021) Prevalence ratio estimation via logistic regression: a tool in R [DOI](doi:10.1590/0001-3765202120190316)
+- Brasil et al. (2026) Oropouche virus infection in pregnant women in Rio de Janeiro, Brazil: a prospective cohort study  [PUBMED](https://pubmed.ncbi.nlm.nih.gov/42896562/)
 - Greenland (1989) Modeling and variable selection in epidemiologic analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/2916724/)
-- Lange, T., et al. (2017) Applied mediation analyses: a review and tutorial. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/29121709/)
+- Lange et al. (2017) Applied mediation analyses: a review and tutorial. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/29121709/)
 - Richiardi et al. (2013) Mediation analysis in epidemiology: methods, interpretation and bias. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/24019424/)
 - Sperandei (2014) Understanding logistic regression analysis. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/24627710/)
-- Steen, J., et al. (2017) Medflex: An R Package for Flexible Mediation Analysis using Natural Effect Models. \textit{Journal of Statistical Software} [Link](https://www.jstatsoft.org/article/view/v076i11).
+- Steen et al. (2017) Medflex: An R Package for Flexible Mediation Analysis using Natural Effect Models. \textit{Journal of Statistical Software} [Link](https://www.jstatsoft.org/article/view/v076i11).
 - VanderWeele (2015) Mediation Analysis: A Practitioner’s Guide. [PUBMED](https://pubmed.ncbi.nlm.nih.gov/26653405/) 
 
 
